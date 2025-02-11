@@ -1,0 +1,7 @@
+virkne3=input()
+print (len(virkne3))
+print(virkne3[0]) 
+print(virkne3[-2]) 
+print(virkne3.count("a")+virkne3.count("A"))
+print(len(virkne3.split()))
+print(virkne3.split()[0])
