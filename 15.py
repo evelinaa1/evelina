@@ -1,5 +1,6 @@
 teikums = input()
 vardi = teikums.split(" ")
+varda_gar
 for vards in vardi:
  for i in range(len(teikums)):
    if teikums == 3 vardi in teikums:
