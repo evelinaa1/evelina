@@ -1,0 +1,5 @@
+saraksts = [1, 2, 3, 4, 5]
+n = int(input("Ievadiet, cik pozīcijas saraksts jāpagroza pa labi: "))
+n = n % len(saraksts)
+pagrieztais_saraksts = saraksts[-n:] + saraksts[:-n]
+print(pagrieztais_saraksts)
