@@ -1,0 +1,7 @@
+skaitli = [3, 7, 1, 2, 8, 4, 5]
+skaitli.sort()
+mazakais_trukstošais = 1
+for skaitlis in skaitli:
+    if skaitlis == mazakais_trukstošais:
+        mazakais_trukstošais += 1
+print(mazakais_trukstošais)
