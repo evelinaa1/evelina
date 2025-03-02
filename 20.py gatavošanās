@@ -1,0 +1,7 @@
+teikums = input("Ievadiet teikumu: ")
+vardi = teikums.split()
+print({len(vardi)})
+garie_vardi = [vards for vards in vardi if len(vards) > 5]
+garie_vardi.sort(key=len)
+print("Vārdi, kas ir garāki par 5 burtiem, sakārtoti pēc garuma:")
+print(garie_vardi)
