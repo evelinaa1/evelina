@@ -1,0 +1,12 @@
+saraksts = list(map(int, input.split()))
+
+simetrisks = True
+for i in range(len(saraksts) // 2):
+    if saraksts[i] != saraksts[-(i + 1)]:
+        simetrisks = False
+        break
+
+if simetrisks:
+    print("Simetrisks")
+else:
+    print("Nav simetrisks")
