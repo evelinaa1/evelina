@@ -1,0 +1,9 @@
+saraksts = ["Ābols", "Banāns", "Bumbieris", "Apelsīns", "Greifrūts"]
+print(saraksts[0])
+print(saraksts[-1])
+saraksts.append("Mango")
+print(saraksts)
+saraksts.remove("Banāns")
+print(saraksts)
+saraksts.sort()
+print(saraksts)
